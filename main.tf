@@ -1,8 +1,3 @@
-provider "aws" {
-  region  = "us-east-1"
-  access_key = "AKIATICPFIBMPO73T3WZ"
-  secret_key = "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"
-}
 
 module "vpc" {
   source   = "./vpc"
